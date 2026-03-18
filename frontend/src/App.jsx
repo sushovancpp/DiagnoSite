@@ -181,10 +181,10 @@ export default function App() {
       }}>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <div style={{ width: 26, height: 26, borderRadius: 6, background: "linear-gradient(135deg,#6366f1,#a855f7)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13 }}>⚡</div>
-          <span style={{ fontWeight: 700, fontSize: 14, letterSpacing: -0.3 }}>DDR Generator</span>
+          <span style={{ fontWeight: 700, fontSize: 14, letterSpacing: -0.3 }}>DiagnoSite</span>
         </div>
         <span style={{ fontSize: 11, color: "#475569", background: "#0f172a", padding: "3px 10px", borderRadius: 20, border: "1px solid #1e293b" }}>
-          Groq · llama-3.3-70b
+          sushvan
         </span>
       </nav>
 
@@ -267,7 +267,7 @@ export default function App() {
               </div>
             </div>
 
-            <iframe src={pdfUrl} title="DDR Report"
+            <iframe src={pdfUrl} title="DignoSite"
               style={{ width: "100%", height: 560, border: "1px solid #1e293b", borderRadius: 10, background: "#fff" }} />
           </div>
         )}
